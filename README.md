@@ -12,8 +12,7 @@ This experiment demonstrates how a digital signal can be transmitted over a fibe
 - Link-B Kit with power supply  
 - Patch chords  
 - 20 MHz Dual Channel Oscilloscope  
-- 1 MHz Function Generator  
-- 1 Meter Fiber Cable  
+
 
 ---
 
@@ -27,7 +26,6 @@ Fiber optic links can be used for transmission of both digital and analog signal
 ### Transmitter
 - LED-based digital DC coupled transmitters are widely used due to ease of fabrication.  
 - A TTL gate drives an NPN transistor, which modulates the LED (SFH450V or SFH756V).  
-- The LED is turned ON and OFF to represent digital signals.
 
 ### Receiver
 - The **SFH-551V** digital optodetector delivers a digital output with minimal external circuitry.  
@@ -39,9 +37,7 @@ Fiber optic links can be used for transmission of both digital and analog signal
 
 **Working principle:**
 - The photodiode converts light into photocurrent.  
-- The transimpedance amplifier converts photocurrent into voltage.  
-- The comparator compares this voltage with a reference derived from a “blind” photodiode for synchronization.  
-- The level shifter provides an open collector output stage with a catch diode to prevent transistor saturation.
+- The transimpedance amplifier converts photocurrent into voltage.
 
 ---
 
@@ -71,18 +67,12 @@ Fiber optic links can be used for transmission of both digital and analog signal
 ---
 
 ## TABULATION
+<img width="1206" height="991" alt="image" src="https://github.com/user-attachments/assets/2a6321ef-6156-49e4-bc28-f97b65ac85e6" />
 
-| Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain (dB) |
-|----------------|-------------------------------|--------------|-----------|
-|                |                               |              |           |
-|                |                               |              |           |
-
----
 
 ## MODEL GRAPH
-*(Attach plotted graph of Gain vs Frequency here)*
+<img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/b545ea47-4e23-44f1-b630-f03734aea5d6" />
 
----
 
 ## RESULT
 The digital signal was successfully transmitted through **660nm and 950nm fiber optic links** and reproduced at the receiver end.  
